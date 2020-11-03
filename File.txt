@@ -1,0 +1,108 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------
+DB JIRA:  BI-10768 - Release20201023-1:Hotfix
+DB PR:https://github.com/Chewy-Inc/datafix-vertica/pull/294/files
+Pre-prod Logs:   http://bamboo.ecom.chewy.com/download/BI-DATVPRE-JOB1/build_logs/BI-DATVPRE-JOB1-980.log
+------------------------------------------------------------------------------------------------------------------------------------------
+23-Oct-2020 14:03:12	INFO:root:Running commands as vsql
+23-Oct-2020 14:03:12	INFO:root:vsql -f /usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql -U svc_bamboo -w ****** -d bidb -h bidbpre.chewy.local
+23-Oct-2020 14:03:12	ERROR:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:1: NOTICE 4185:  Nothing was dropped
+23-Oct-2020 14:03:16	INFO:root:DROP TABLE
+23-Oct-2020 14:03:16	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:19: WARNING 6978:  Table "RDBLnItmDateFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 14:03:16	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:19: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 14:03:16	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 14:03:16	INFO:root:CREATE TABLE
+23-Oct-2020 14:03:16	INFO:root:ALTER TABLE
+23-Oct-2020 14:03:16	INFO:root:CREATE PROJECTION
+23-Oct-2020 14:03:16	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 14:03:16	INFO:root:DROP TABLE
+23-Oct-2020 14:03:16	ERROR:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:65: NOTICE 4185:  Nothing was dropped
+23-Oct-2020 14:03:16	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:93: WARNING 6978:  Table "RDBLnItmNumFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 14:03:16	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:93: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 14:03:16	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 14:03:16	INFO:root:CREATE TABLE
+23-Oct-2020 14:03:16	INFO:root:ALTER TABLE
+23-Oct-2020 14:03:17	INFO:root:CREATE PROJECTION
+23-Oct-2020 14:03:17	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 14:03:17	ERROR:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:158: NOTICE 4185:  Nothing was dropped
+23-Oct-2020 14:03:17	INFO:root:DROP TABLE
+23-Oct-2020 14:03:17	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:217: WARNING 6978:  Table "RDBLnItmStrngFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 14:03:17	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:217: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 14:03:17	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 14:03:17	INFO:root:CREATE TABLE
+23-Oct-2020 14:03:17	INFO:root:ALTER TABLE
+23-Oct-2020 14:03:17	INFO:root:CREATE PROJECTION
+23-Oct-2020 14:03:17	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 14:03:17	ERROR:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:340: NOTICE 4185:  Nothing was dropped
+23-Oct-2020 14:03:17	INFO:root:DROP TABLE
+23-Oct-2020 14:03:17	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:355: WARNING 6978:  Table "RDBLineItemNotice" will include privileges from schema "vertex"
+23-Oct-2020 14:03:17	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:355: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 14:03:17	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 14:03:17	INFO:root:CREATE TABLE
+23-Oct-2020 14:03:17	INFO:root:ALTER TABLE
+23-Oct-2020 14:03:17	INFO:root:CREATE PROJECTION
+23-Oct-2020 14:03:17	INFO:root:vsql -f /usr/local/bamboo/data/xml-data/build-dir/15597569/BI-DATVPRE-JOB1/todo/BI-10759/02_row2_hf_vendor_agreement.sql -U svc_bamboo -w ****** -d bidb -h bidbpre.chewy.local
+23-Oct-2020 14:03:17	INFO:root:GRANT PRIVILEGE
+------------------------------------------------------------------------------------------------------------------------------------------
+
+DB JIRA:  BI-10768 - Release20201023-1:Hotfix
+DB PR: https://github.com/Chewy-Inc/datafix-vertica/pull/294/files
+Bamboo Prod Logs: http://bamboo.ecom.chewy.com/download/BI-DATVPROD-JOB1/build_logs/BI-DATVPROD-JOB1-440.log
+------------------------------------------------------------------------------------------------------------------------------------------
+build	23-Oct-2020 15:04:13	Already up-to-date.
+23-Oct-2020 15:04:13	DEBUG:root:Getting Jira issue ID from ticket key BI-10759...
+23-Oct-2020 15:04:13	DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chewyinc.atlassian.net:443
+23-Oct-2020 15:04:14	DEBUG:urllib3.connectionpool:https://chewyinc.atlassian.net:443 "GET /rest/api/3/issue/BI-10759 HTTP/1.1" 200 None
+23-Oct-2020 15:04:14	DEBUG:root:Getting Jira issue ID from ticket key BI-10768...
+23-Oct-2020 15:04:14	DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): chewyinc.atlassian.net:443
+23-Oct-2020 15:04:15	DEBUG:urllib3.connectionpool:https://chewyinc.atlassian.net:443 "GET /rest/api/3/issue/BI-10768 HTTP/1.1" 200 None
+23-Oct-2020 15:04:15	WARNING:root:Too many tickets found in todo/. Expected 1, but found 2 (['BI-10759', 'BI-10768']).
+23-Oct-2020 15:04:15	WARNING:root:Continuing, but only processing first 1 ticket(s). Run this job again manually to process the others.
+23-Oct-2020 15:04:15	INFO:root:Processing todo/BI-10759
+23-Oct-2020 15:04:15	DEBUG:root:Suffix search for down/verify sql files in the root ticket dir: True
+23-Oct-2020 15:04:15	INFO:root:Running commands as vsql
+
+--01_Vertext_9_upgrade_BI_10531_DDL--
+23-Oct-2020 15:04:15	INFO:root:vsql -f /usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql -U svc_bamboo -w ****** -d bidb -h bidb.chewy.local
+23-Oct-2020 15:04:15	INFO:root:DROP TABLE
+23-Oct-2020 15:04:15	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:19: WARNING 6978:  Table "RDBLnItmDateFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 15:04:15	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:19: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 15:04:15	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 15:04:15	INFO:root:CREATE TABLE
+23-Oct-2020 15:04:16	INFO:root:ALTER TABLE
+23-Oct-2020 15:04:16	INFO:root:CREATE PROJECTION
+23-Oct-2020 15:04:16	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 15:04:17	INFO:root:DROP TABLE
+23-Oct-2020 15:04:18	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:93: WARNING 6978:  Table "RDBLnItmNumFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 15:04:18	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:93: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 15:04:18	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 15:04:18	INFO:root:CREATE TABLE
+23-Oct-2020 15:04:19	INFO:root:ALTER TABLE
+23-Oct-2020 15:04:19	INFO:root:CREATE PROJECTION
+23-Oct-2020 15:04:19	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 15:04:20	INFO:root:DROP TABLE
+23-Oct-2020 15:04:20	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:217: WARNING 6978:  Table "RDBLnItmStrngFlxFld" will include privileges from schema "vertex"
+23-Oct-2020 15:04:20	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:217: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 15:04:20	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 15:04:20	INFO:root:CREATE TABLE
+23-Oct-2020 15:04:20	INFO:root:ALTER TABLE
+23-Oct-2020 15:04:20	INFO:root:CREATE PROJECTION
+23-Oct-2020 15:04:20	INFO:root:GRANT PRIVILEGE
+23-Oct-2020 15:04:21	INFO:root:DROP TABLE
+23-Oct-2020 15:04:21	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:355: WARNING 6978:  Table "RDBLineItemNotice" will include privileges from schema "vertex"
+23-Oct-2020 15:04:21	INFO:root:vsql:/usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/01_Vertext_9_upgrade_BI_10531_DDL.sql:355: WARNING 6100:  Using PARTITION expression that returns a Numeric value
+23-Oct-2020 15:04:21	ERROR:root:HINT:  This PARTITION expression may cause too many data partitions.  Use of an expression that returns a more accurate value, such as a regular VARCHAR or INT, is encouraged
+23-Oct-2020 15:04:21	INFO:root:CREATE TABLE
+23-Oct-2020 15:04:21	INFO:root:ALTER TABLE
+23-Oct-2020 15:04:22	INFO:root:CREATE PROJECTION
+23-Oct-2020 15:04:22	INFO:root:GRANT PRIVILEGE
+
+--02_row2_hf_vendor_agreement--
+23-Oct-2020 15:04:22	INFO:root:vsql -f /usr/local/bamboo/data/xml-data/build-dir/131073/BI-DATVPROD-JOB1/todo/BI-10759/02_row2_hf_vendor_agreement.sql -U svc_bamboo -w ****** -d bidb -h bidb.chewy.local
+23-Oct-2020 15:04:23	INFO:root:ALTER TABLE
+23-Oct-2020 15:04:24	INFO:root:ALTER TABLE
+
+
+23-Oct-2020 15:04:24	INFO:root:Cleaning up and moving files to processed/
+23-Oct-2020 15:04:24	INFO:root:On branch master
+23-Oct-2020 15:04:24	INFO:root:Your branch is up-to-date with 'origin/master'.
